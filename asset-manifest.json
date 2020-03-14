@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/thynguyen96/react_01-slide-show/static/css/main.d573e881.chunk.css",
+    "main.js": "/thynguyen96/react_01-slide-show/static/js/main.19b01015.chunk.js",
+    "main.js.map": "/thynguyen96/react_01-slide-show/static/js/main.19b01015.chunk.js.map",
+    "runtime-main.js": "/thynguyen96/react_01-slide-show/static/js/runtime-main.f1d36c02.js",
+    "runtime-main.js.map": "/thynguyen96/react_01-slide-show/static/js/runtime-main.f1d36c02.js.map",
+    "static/js/2.7934c39e.chunk.js": "/thynguyen96/react_01-slide-show/static/js/2.7934c39e.chunk.js",
+    "static/js/2.7934c39e.chunk.js.map": "/thynguyen96/react_01-slide-show/static/js/2.7934c39e.chunk.js.map",
+    "index.html": "/thynguyen96/react_01-slide-show/index.html",
+    "precache-manifest.2949480a6a5e585a96535c657fa1f3b7.js": "/thynguyen96/react_01-slide-show/precache-manifest.2949480a6a5e585a96535c657fa1f3b7.js",
+    "service-worker.js": "/thynguyen96/react_01-slide-show/service-worker.js",
+    "static/css/main.d573e881.chunk.css.map": "/thynguyen96/react_01-slide-show/static/css/main.d573e881.chunk.css.map",
+    "static/js/2.7934c39e.chunk.js.LICENSE.txt": "/thynguyen96/react_01-slide-show/static/js/2.7934c39e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1d36c02.js",
+    "static/js/2.7934c39e.chunk.js",
+    "static/css/main.d573e881.chunk.css",
+    "static/js/main.19b01015.chunk.js"
+  ]
+}
