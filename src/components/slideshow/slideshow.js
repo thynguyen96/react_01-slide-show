@@ -32,11 +32,11 @@ export default class Slideshow extends React.Component {
         });
       }
     
-      forward = () => {
+    forward = () => {
         this.setState({
-          slideIndex: this.getNewSlideIndex(1)
+            slideIndex: this.getNewSlideIndex(1)
         });
-      }
+    }
 
     setSlideIndex = (index) => {
         this.setState({
