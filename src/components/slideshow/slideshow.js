@@ -102,7 +102,7 @@ export default class Slideshow extends React.Component {
                     <span className={`${owlClass}__container-slide--prev`} onClick={this.backward}>❯</span>
                 </div>
 
-                <div className={`${owlClass}__dot-container`}>
+                {/* <div className={`${owlClass}__dot-container`}>
                     {
                         this.props.input.map((_, index) => {
                             return (
@@ -112,6 +112,26 @@ export default class Slideshow extends React.Component {
                                     onClick={() => this.setSlideIndex(index)}
                                 >
                                 </span>
+                            )
+                        })
+                    }
+                </div> */}
+
+                <div className={`${owlClass}__cotainer-bottom`}>
+                    {
+                        this.props.input.map((image, index) => {
+                            return (
+                                <img
+                                  key={index}
+                                  src={image.src}
+                                  alt={image.caption}
+                                  className={`${owlClass}__container-bottom-item ${this.state.slideIndex === index ? `${owlClass}__container-bottom-item--active` : ""}`}
+                                  onClick={() => this.setSlideIndex(index)}
+                                  style={{
+                                    width: `${1 / this.props.input.length * 100}%`,
+                                    height: `100%`
+                                  }}
+                                />
                             )
                         })
                     }
